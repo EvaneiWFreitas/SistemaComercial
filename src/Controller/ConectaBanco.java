@@ -11,7 +11,7 @@ public class ConectaBanco {
     public Statement stm ;
     public ResultSet rs ;
     private String driver = "org.postgresql.Driver";
-    private String caminho = "jdbc:postgresql://localhost:5433/controlecomercial";
+    private String caminho = "jdbc:postgresql://localhost:5433/bd_controlecomercial";
     private String usuario = "postgres";
     private String senha = "@mmde0566ev";
     public Connection conn;
